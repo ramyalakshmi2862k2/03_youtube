@@ -1,0 +1,9 @@
+name : practice
+on : push 
+jobs :
+   hello :
+     runs-on : ubuntu-latest
+
+     steps:
+     -  name : basic print 
+        run : echo "Hello World"
